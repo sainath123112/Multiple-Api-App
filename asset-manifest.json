@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Multiple-Api-App/static/css/main.d8fbfa5a.css",
+    "main.js": "/Multiple-Api-App/static/js/main.8abfc02f.js",
+    "index.html": "/Multiple-Api-App/index.html",
+    "main.d8fbfa5a.css.map": "/Multiple-Api-App/static/css/main.d8fbfa5a.css.map",
+    "main.8abfc02f.js.map": "/Multiple-Api-App/static/js/main.8abfc02f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8fbfa5a.css",
+    "static/js/main.8abfc02f.js"
+  ]
+}
