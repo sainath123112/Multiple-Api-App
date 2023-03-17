@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+.home
+{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    font-family: "Rajdhani";
+    padding: 50px;
+    
+}
+.home-heading
+{
+    font-size: 28px;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.home-buttons
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.home-buttons button
+{
+    border: none;
+    outline: none;
+    background-color: #D17B0F;
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+}
+.home-buttons button:hover
+{
+    transform: scale(1.2);
+}
+
+@media (max-width: 1000px)
+{
+    .home-heading
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-buttons button
+{
+    padding: 6px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+}
+
+@media (max-width: 450px)
+{
+    .home-heading
+{
+    font-size: 12px;
+    font-weight: 500;
+}
+.home-buttons button
+{
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 10px 20px;
+}
+.home
+{
+    padding: 25px;
+}
+}

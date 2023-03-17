@@ -1,0 +1,83 @@
+.api-request
+{
+    width: 50vw;
+    background-color: #D2FF96;
+    height: auto;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.api-request .api-content
+{
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+}
+.api-request h3
+{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.riddle
+{
+    padding: 20px;
+}
+.riddle p
+{
+    font-size: 24px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.riddle p span
+{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.no-content{
+    font-size: 24px;
+    color: #D17B0F;
+}
+
+@media (max-width: 1000px)
+{
+    .api-request
+{
+    width: 80vw;
+    padding: 30px;
+}
+.api-request .api-content, .riddle p, .riddle p span
+{
+    font-size: 20px;
+
+}
+}
+
+@media (max-width: 450px)
+{
+    .api-request
+    {
+        width: 80vw;
+        padding: 10px;
+    }
+    .api-request .api-content, .riddle p, .riddle p span
+    {
+        font-size: 16px;
+    
+    }
+    .api-request h3
+{
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+.no-content{
+    font-size: 18px;
+}
+}
